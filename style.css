@@ -1,0 +1,931 @@
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: bisque; */
+}
+.logo{
+    height: 70px;
+    width: 200px;
+    /* background-color: aquamarine; */
+    background-repeat: no-repeat;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt{
+    font-size: 30px;
+    font-weight: 700;
+}
+/* .menu-action{
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+} */
+.menu-action{
+    height: 70px;
+    width: 800px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+.menu{
+    height: 70px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    
+}
+.action{
+    height: 50px;
+    width: 250px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    
+}
+.menulink a{
+   text-decoration: none; 
+   padding-left: 45px;
+   /* color: black; */
+}
+.menulink a:hover{
+    color:orangered;
+}
+.plus-circle{
+    height: 30px;
+    width: 30px;
+    background-color:orangered;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.action-text{
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.space1{
+    height: 30px;
+    width: 100%;
+    background-color: aqua;
+}
+.banner{
+    height: 800px;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    background-image: url('images/estate.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+
+}
+.space2{
+    height: 90px;
+    width: 100%;
+    /* background-color:black; */
+}
+
+.banner-category{
+    height: 400px;
+    width: 400px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin:0 auto;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.banner-category-1{
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    margin-bottom: auto; 
+    display: flex;
+    justify-content: center;
+}
+/* .txt3{
+    font-size: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: bottom 0; auto;
+} */
+.txt{
+    font-size: 25px;
+    color: black;
+}
+.txt2{
+    font-size: 25px;
+    color: orangered;
+}
+
+.banner-category-2{
+    height: 300px;
+    width: 400px;
+    /* background-color: hotpink; */
+    display: flex;
+    margin-top: 40px;
+    color: white;
+   
+}
+
+.main-category{
+    height: 500px;
+    width: 80%;
+    /* background-color: #003; */
+    margin: 0 auto;
+    display: flex;
+}
+
+.category-1{
+    height: 500px;
+    width: 300px;
+    background-color: orange;
+    background-image: url('images/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.category-2{
+    height: 500px;
+    width: 440px;
+    /* background-color: green; */
+   
+} 
+
+.spaceup{
+    height: 500px;
+    width: 50px;
+    /* background-color: blue; */
+}
+.category-3{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
+}
+.category-number{
+    height: 125px;
+    width: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+    
+}
+.category-number-1{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    background-image: url(images/number.png);
+    background-repeat: no-repeat;
+    /* margin-right: 300px; */
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .category-txt{
+    margin-left: 30px;
+    font-size: 20px;
+ }
+ .txt4{
+    color: grey;
+    font-size: 16px;
+ }
+.category-contract{
+    height: 125px;
+    width: 400px;
+    /* background-color: thistle; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+    
+}
+.category-contract-1{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    background-image: url(images/contract.png);
+    background-repeat: no-repeat;
+    /* margin-right: 300px; */
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+.category-payment{
+    height: 125px;
+    width: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.category-payment-1{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    background-image: url(images/payment.png);
+    background-repeat: no-repeat;
+    /* margin-right: 300px; */
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.category-safety{
+    height: 125px;
+    width: 400px;
+    /* background-color: teal; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.category-safety-1{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    background-image: url(images/safety.png);
+    background-repeat: no-repeat;
+    /* margin-right: 300px; */
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.banner-below{
+    height: 400px;
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    background-image: url('images/chair.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+
+}
+.banner-below-2{
+    height: 600px;
+    width: 800px;
+    /* background-color: bisque; */
+}
+
+/* .category-apartment-1{
+    height: 80px;
+    width: 80px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+
+
+.txt3{
+    font-size: 50px;
+    font-weight: 500;
+}
+.category-2-A{
+    height: 350px;
+    width: 440px;
+    /* background-color: rebeccapurple; */
+}
+.category-2-B{
+    height: 100px;
+    width: 440px;
+    /* background-color: gold; */
+}
+.category-2-A-1{
+    height: 50px;
+    width: 440px;
+    /* background-color: aqua; */
+}
+.txt6{
+    color: orangered;
+    font-weight: 600;
+}
+.category-2-A-2{
+    height: 100px;
+    width: 440px;
+    /* background-color: rosybrown; */
+}
+.txt7{
+    font-size: 40px;
+    color:black;
+    font-weight: 400;
+}
+.category-2-A-3{
+    height: 50px;
+    width: 440px;
+    /* background-color: aqua; */
+}
+.txt8{
+    color: black;
+    font-weight: 400;
+}
+.category-2-A-4{
+    height: 50px;
+    width: 440px;
+    /* background-color: darkcyan; */
+}
+.txt9{
+    color: black;
+    font-weight: 400;
+}
+.banner-below-A{
+    height: 300px;
+    width: 800px;
+    /* background-color: red; */
+    /* background: url("video/watch.htm") */
+    
+}
+.banner-below-A-1{
+    height: 100px;
+    width: 800px;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.txt11{
+    color: orangered;
+    margin-top: 60px;
+}
+.banner-below-A-2{
+    height: 200px;
+    width: 800px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left: 50px; */
+}
+.txt12{
+    font-size: 35px;
+    color: aquamarine;
+}
+.banner-below-B{
+    height: 300px;
+    width: 800px;
+    background-color: hotpink;
+   
+    
+}
+.space3{
+    height: 300px;
+    width: 100%;
+    /* background-color:yellowgreen; */
+}
+.building{
+    height: 150px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    
+
+}
+.build{
+    height: 150px;
+    width: 33%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.build1{
+    height: 110px;
+    width: 250px;
+    background-color: aquamarine;
+   
+}
+.build2{
+    height: 50px;
+    width: 50px;
+    background-color: thistle;
+    position: absolute;
+    border-radius: 100px;
+    top: 5px;
+    left: 340px;
+    
+}
+.years-1{
+    height: 150px;
+    width: 33%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.years1{
+    height: 110px;
+    width: 250px;
+    background-color: yellow;
+   
+}
+.years2{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(18, 147, 158);
+    position: absolute;
+    border-radius: 100px;
+    top: 5px;
+    left: 340px;
+    
+}
+.awward-2{
+    height: 150px;
+    width: 33%;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.awward1{
+    height: 110px;
+    width: 250px;
+    background-color: rebeccapurple;
+   
+}
+.awward2{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    border-radius: 100px;
+    top: 5px;
+    left: 340px;
+    
+}
+.space4{
+    height: 60px;
+    width: 100%;
+    background-color: aquamarine;
+}
+/* new work */
+.best{
+    height: 300px;
+    width: 100%;
+    /* background-color: bisque; */
+}
+.bestspace{
+    height: 60px;
+    width: 100%;
+    /* background-color: gray; */
+}
+.bestspace2{
+    height: 200px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    
+    align-items: center;
+}
+.space30{
+    height: 200px;
+    width: 110px;
+    /* background-color: blue; */
+}
+.bestdeal{
+    height: 200px;
+    width: 300px;
+    /* background-color: brown; */
+}
+.bestdeal2{
+    height: 40px;
+    width: 300px;
+    /* background-color: black; */
+}
+.bestdeal3{
+    height: 100px;
+    width: 300px;
+    /* background-color: yellow; */
+    margin-top: 60px;
+}
+.txt21{
+    font-weight: 400;
+    color: orangered;
+}
+.txt22{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.space31{
+    height: 200px;
+    width: 300px;
+    /* background-color: rebeccapurple; */
+}
+.bestapartment{
+    height: 200px;
+    width: 200px;
+    /* background-color: beige; */
+}
+.bestapartment3{
+    height: 50px;
+    width: 200px;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.txt23{
+    font-size: 25px;
+    color: white;
+}
+/* .bestspace50{
+    height: 200px;
+    width: 20px;
+    background-color: aqua;
+} */
+.besthouse{
+    height: 200px;
+    width: 200px;
+    /* background-color: yellowgreen; */
+    margin-left: 30px;
+}
+.besthouse3{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.bestpen{
+    height: 200px;
+    width: 200px;
+    /* background-color: orchid; */
+    margin-left: 30px;
+}
+.bestpen3{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+/* mainwork */
+
+.main-total{
+    height: 500px;
+    width: 80%;
+    /* background-color: #003; */
+    margin: 0 auto;
+    display: flex;
+    /* margin-left: 120px; */
+}
+/* .spaceup67{
+    height: 500px;
+    width: 350px;
+    background-color: beige;
+} */
+.totalcategory{
+    height: 350px;
+    width: 280px;
+    /* background-color: white; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 2);
+}
+.totalnumber{
+    height: 70px;
+    width: 280px;
+    /* background-color: yellow; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom: 1px solid black;
+    
+    
+}
+
+ .category-txt44{
+    margin-left: 10px;
+    font-size: 20px;
+    color: gray;
+ }
+ .txt45{
+    color: black;
+    font-size: 25px;
+    margin-left: 50px;
+ }
+ .totalcontract{
+    height: 70px;
+    width: 280px;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom: 1px solid black;
+ }
+ .category-txt47{
+    margin-left: 10px;
+    font-size: 20px;
+    color: gray;
+ }
+ .txt48{
+    color: black;
+    font-size: 25px;
+    margin-left: 80px;
+ }
+ .totalpayment{
+    height: 70px;
+    width: 280px;
+    /* background-color: green; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom: 1px solid black;
+ }
+ .category-txt49{
+    margin-left: 10px;
+    font-size: 20px;
+    color: gray;
+ }
+ .txt50{
+    color: black;
+    font-size: 25px;
+    margin-left: 80px;
+ }
+ .totalsafety{
+    height: 70px;
+    width: 280px;
+    /* background-color: peru; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom: 1px solid black;
+ }
+ .category-txt60{
+    margin-left: 10px;
+    font-size: 20px;
+    color: gray;
+ }
+ .txt61{
+    color: black;
+    font-size: 25px;
+    margin-left: 80px;
+ }
+ .totalprocess{
+    height: 70px;
+    width: 280px;
+    /* background-color: rgb(205, 63, 151); */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-bottom: 1px solid black;
+ }
+ .category-txt62{
+    margin-left: 10px;
+    font-size: 20px;
+    color: gray;
+ }
+ .txt63{
+    color: black;
+    font-size: 25px;
+    margin-left: 180px;
+ }
+ .spaceup69{
+    height: 500px;
+    width: 300px;
+    /* background-color: aquamarine; */
+ }
+ .categorytotal{
+    height: 400px;
+    width: 1700px;
+    /* background-color: orange; */
+    background-image: url('images/table.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.extracategory{
+    height: 400px;
+    width: 440px;
+    /* background-color: green; */
+    margin-left: 50px;
+} 
+.extracategory-2{
+    height: 350px;
+    width: 440px;
+    /* background-color: rebeccapurple; */
+}
+.category-2A{
+    height: 50px;
+    width: 440px;
+    /* background-color: aqua; */
+}
+.txt65{
+    color: black;
+    font-size: 20px;
+}
+.category-3A{
+    height: 100px;
+    width: 440px;
+    /* background-color: rosybrown; */
+}
+.txt67{
+    font-size: 15px;
+    color:black;
+    
+}
+.space690{
+    height: 50px;
+    width: 440px;
+    /* background-color: aliceblue; */
+
+}
+.category-4A{
+    height: 100px;
+    width: 440px;
+    /* background-color: aqua; */
+}
+.txt68{
+    color: black;
+    font-weight: 400;
+}
+.spaceup77{
+    height: 100px;
+    width: 100%;
+    /* background-color: black; */
+}
+.Propertiesbanner{
+    height: 200px;
+    width: 100%;
+    /* background-color: red; */
+    
+    
+}
+.bannerproperties1{
+    height: 100px;
+    width: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.txt87{
+    color: orangered;
+    margin-top: 60px;
+}
+.bannerproperties2{
+    height: 100px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.txt88{
+    font-size: 35px;
+    color: black;
+}
+.spaceup78{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(171, 181, 32);
+}
+/* nextwork */
+.luxury{
+    height: 420px;
+    width: 1200px;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+/* .spaceluxury{
+    height: 400px;
+    width: 100px;
+    background-color: darkgreen;
+} */
+.luxurycategory{
+    height: 400px;
+    width: 350px;
+    /* background-color: bisque; */
+}
+.luxuryvilla{
+    height: 250px;
+    width: 350px;
+    background-color: brown;
+    background-image: url("images/villahome.jpg");
+    background-repeat: no-repeat;
+    
+}
+.luxuryvilla2{
+    height: 150px;
+    width: 350px;
+    /* background-color: rgb(42, 42, 165); */
+}
+.villacategory{
+    height: 40px;
+    width: 350px;
+    /* background-color: brown; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.villa20{
+    height: 40px;
+    width: 100px;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.txt101{
+    color: black;
+    justify-content: center;
+}
+
+.villa30{
+    height: 40px;
+    width: 150px;
+    /* background-color: tan; */
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+}
+.txt102{
+    color: orangered;
+    font-weight: 600;
+    margin-left: 100px;
+}
+.housecategory{
+    height: 40px;
+    width: 350px;
+    /* background-color:gray; */
+}
+.txt302{
+    font-weight: 600;
+    font-size: 20px;
+}
+.txt303{
+    color: black;
+    font-size: 15px;
+}
+.bedroom{
+    height: 50px;
+    width: 350px;
+    /* background-color:rgb(28, 144, 233); */
+}
+.schedule{
+    height: 40px;
+    width: 350px;
+    /* background-color:rgb(28, 233, 107); */
+}
+
+.action50{
+    height: 50px;
+    width: 250px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    margin-left: 30px;
+}
+.luxurycategory2{
+    height: 400px;
+    width: 350px;
+    background-color: hotpink;
+}
+.luxurycategory3{
+    height: 400px;
+    width: 350px;
+    background-color: yellowgreen;
+}
