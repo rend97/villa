@@ -823,7 +823,7 @@ header{
 .luxury{
     height: 420px;
     width: 1200px;
-    /* background-color: cornflowerblue; */
+    background-color: cornflowerblue;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
@@ -924,6 +924,100 @@ header{
     width: 350px;
     background-color: hotpink;
 }
+/* nextwork */
+.luxuryvilla{
+    height: 250px;
+    width: 350px;
+    background-color: brown;
+    background-image: url("images/villahome.jpg");
+    background-repeat: no-repeat;
+    
+}
+.luxuryvilla2{
+    height: 150px;
+    width: 350px;
+    /* background-color: rgb(42, 42, 165); */
+}
+.villacategory{
+    height: 40px;
+    width: 350px;
+    /* background-color: brown; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.villa20{
+    height: 40px;
+    width: 100px;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.txt101{
+    color: black;
+    justify-content: center;
+}
+
+.villa30{
+    height: 40px;
+    width: 150px;
+    /* background-color: tan; */
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+}
+.txt102{
+    color: orangered;
+    font-weight: 600;
+    margin-left: 100px;
+}
+.housecategory{
+    height: 40px;
+    width: 350px;
+    /* background-color:gray; */
+}
+.txt302{
+    font-weight: 600;
+    font-size: 20px;
+}
+.txt303{
+    color: black;
+    font-size: 15px;
+}
+.bedroom{
+    height: 50px;
+    width: 350px;
+    /* background-color:rgb(28, 144, 233); */
+}
+.schedule{
+    height: 40px;
+    width: 350px;
+    /* background-color:rgb(28, 233, 107); */
+}
+
+.action50{
+    height: 50px;
+    width: 250px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    margin-left: 30px;
+}
+.luxurycategory2{
+    height: 400px;
+    width: 350px;
+    background-color: hotpink;
+}
+.luxurycategory3{
+    height: 400px;
+    width: 350px;
+    background-color: yellowgreen;
+}
+
+
 .luxurycategory3{
     height: 400px;
     width: 350px;
